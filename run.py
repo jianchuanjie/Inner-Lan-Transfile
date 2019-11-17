@@ -74,7 +74,7 @@ class App:
         self.text_show(ss)
 
     def text_show(self, ss):
-        self.file.config(state=NORMAL)        
+        self.file.config(state=NORMAL)
         # self.file.delete(1.0, END)
         self.file.insert(END, ss + '\n')
         self.file.config(state=DISABLED)
